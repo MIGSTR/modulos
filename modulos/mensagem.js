@@ -1,4 +1,4 @@
-var mensagem = function (nome) {
-    return "É us guri do html!! Ass: " + nome;
-  }; 
-  module.exports = mensagem; 
+var mensagem = function (nome,sendmensagem) {
+  return sendmensagem + nome;
+}; 
+module.exports = mensagem; 
